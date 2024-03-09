@@ -4,15 +4,17 @@
 <title>Page Title</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
+<link rel="stylesheet" text="text/css" href="stylesheet1.css">
+
 <style>
 </style>
 <script src=""></script>
 </head>
 <!--- Code above this line will not be displayed on the browser -->
 	<body>
-		<h1>La Fresca Cafe & Patisserie</h1>
-
+		<header>
+		<h1 style="color:navy;">La Fresca Cafe & Patisserie</h1>
+		<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="aboutus.html">About Us</a></li>
@@ -20,9 +22,13 @@
 			<li><a href="contactus.html">Contact Us</a></li>
 			<li><a href="reviews.html">Reviews</a></li>
 		</ul>
+		</nav>
+		</header>
 
-		<h3>Reserve a Table</h3>
+		<section>
 
+		<article>
+		<h3 style="font-family:cursive;">Reserve a Table</h3>
 		<form>
 			<label for="Name">Name:</label><br>
 			<input type="text" name="Name"><br>
@@ -36,12 +42,22 @@
 			<input type="text" name="guests"><br><br>
 			<input type="submit" value="Reserve">
 		</form>
+		</article>
 
-
-		<h3>Our Locations</h3>
+		<article class="mart3">
+		<h3 style="font-family:cursive;">Our Locations</h3>
 
 		<p>La Fresca is proud to extend its warm hospitality and delectable offerings across multiple locations, creating havens for culinary enthusiasts and coffee connoisseurs alike.<br>We are located in Madison, NYC, Chicago, Austin and Seattle.</p>
 
+		<img src="C:\Users\vanim\OneDrive\Documents\LIS 351\LIS 351 Project\ContactUs\Contact us image 1.png" alt="Contact Us image" width="150" height="100">
+		<p style="font-size:50%;">Background image: Folding Map Flat Icon Vector.svg by Wikimedia Commons at https://commons.wikimedia.org/wiki/File:Folding_Map_Flat_Icon_Vector.svg, CC BY-SA 4.0 DEED.</p>
+		</article>
+
+		</section>
+
+		<footer>
+		We are open all week long from 8:30am to 6:00pm and we take reservations!
+		</footer>
 
 	</body>
 </html>
